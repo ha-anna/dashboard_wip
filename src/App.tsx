@@ -1,8 +1,11 @@
+import Note from "./components/Note"
+
 
 function App() {
-
   return (
-    <h1>Dashboard</h1>
+    <div className="dashboard">
+      <Note />
+    </div>
   )
 }
 
